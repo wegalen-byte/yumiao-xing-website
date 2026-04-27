@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Yumiao Xing | Director</title>
+    <meta
+      name="description"
+      content="Official website of director Yumiao Xing, featuring the short film The Greatest Joy in the World and contact information."
+    />
+    <link rel="preconnect" href="https://images.unsplash.com" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#top" aria-label="Back to home">
+        <span>Yumiao Xing</span>
+        <small>Director</small>
+      </a>
+      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" data-nav-toggle>
+        <span></span>
+        <span></span>
+      </button>
+      <nav id="site-nav" class="site-nav" data-nav>
+        <a href="#top">Home</a>
+        <a href="#bio">Bio</a>
+        <a href="#film">Film</a>
+        <a href="#stills">Stills/BTS</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-label="Yumiao Xing homepage">
+        <img
+          class="hero-image"
+          src="./assets/home-background.jpg"
+          alt="Black-and-white film set with students drawing and crew silhouettes"
+        />
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow">Director</p>
+          <h1>Yumiao Xing</h1>
+          <div class="hero-actions">
+            <a class="button primary" href="#film">View Film</a>
+            <a class="button ghost" href="#contact">Contact</a>
+          </div>
+        </div>
+      </section>
+
+      <section id="bio" class="section bio-section" aria-label="Biography">
+        <div class="bio-portrait">
+          <img src="./assets/portrait.jpg" alt="Portrait of Yumiao Xing" />
+        </div>
+        <div class="bio-copy">
+          <p class="eyebrow">Bio</p>
+          <div class="bio-text">
+            <p>
+              Yumiao Xing is a Chinese filmmaker based in New York, Toronto, and Zhengzhou. She studied Cinema Studies,
+              Art History, and Visual Studies at the University of Toronto and Film Directing at the School of Visual
+              Arts.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="film" class="section film-section" aria-label="The Greatest Joy in the World">
+        <div class="film-poster">
+          <figure class="poster-card" tabindex="0" aria-label="Film details for The Greatest Joy in the World">
+            <img src="./assets/poster-display.jpg" alt="Poster for The Greatest Joy in the World" />
+            <figcaption class="poster-info">
+              <strong>The Greatest Joy in the World</strong>
+              <span>Runtime: 12 minutes 39 seconds.</span>
+              <span>Aspect Ratio: 3:2</span>
+              <span>Format: digital</span>
+              <span>Resolution: 4K</span>
+            </figcaption>
+          </figure>
+        </div>
+        <div class="film-copy">
+          <p class="eyebrow">Short Film</p>
+          <h2>The Greatest Joy in the World</h2>
+          <p>
+            Mengting (17), a high school girl who loves drawing, enters a high-intensity standardized art training camp,
+            where she struggles to survive.
+          </p>
+        </div>
+      </section>
+
+      <section id="stills" class="section stills-section" aria-label="Stills and behind the scenes">
+        <div class="section-heading">
+          <p class="eyebrow">Stills/BTS</p>
+        </div>
+        <div class="stills-grid">
+          <button class="still-button" type="button" data-gallery-index="0">
+            <img src="./assets/SHD_0016.jpg" alt="Still from The Greatest Joy in the World 1" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="1">
+            <img src="./assets/SHD_0029.jpg" alt="Still from The Greatest Joy in the World 2" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="2">
+            <img src="./assets/SHD_0035.jpg" alt="Still from The Greatest Joy in the World 3" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="3">
+            <img src="./assets/SHD_0048.jpg" alt="Still from The Greatest Joy in the World 4" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="4">
+            <img src="./assets/SHD_0052.jpg" alt="Still from The Greatest Joy in the World 5" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="5">
+            <img src="./assets/SHD_0069.jpg" alt="Still from The Greatest Joy in the World 6" />
+          </button>
+          <button class="still-button" type="button" data-gallery-index="6">
+            <img src="./assets/SHD_0091.jpg" alt="Still from The Greatest Joy in the World 7" />
+          </button>
+        </div>
+      </section>
+
+      <section id="contact" class="contact-section" aria-label="Contact Yumiao Xing">
+        <div class="contact-copy">
+          <div>
+            <p class="eyebrow">Contact</p>
+          </div>
+          <a class="contact-link" href="mailto:yumiaoxing.studio@gmail.com">yumiaoxing.studio@gmail.com</a>
+        </div>
+      </section>
+    </main>
+
+    <div class="lightbox" data-lightbox aria-hidden="true">
+      <button class="lightbox-close" type="button" aria-label="Close gallery" data-lightbox-close>&times;</button>
+      <button class="lightbox-arrow prev" type="button" aria-label="Previous image" data-lightbox-prev>&lt;</button>
+      <img src="./assets/SHD_0016.jpg" alt="" data-lightbox-image />
+      <button class="lightbox-arrow next" type="button" aria-label="Next image" data-lightbox-next>&gt;</button>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
